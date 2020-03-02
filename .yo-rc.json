@@ -1,0 +1,28 @@
+{
+  "generator-ngx-rocket": {
+    "version": "7.1.0",
+    "props": {
+      "location": "path",
+      "strict": false,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "appName": "payment-method",
+      "target": ["web"],
+      "pwa": true,
+      "ui": "ionic",
+      "layout": "side-menu",
+      "auth": true,
+      "lazy": false,
+      "angulartics": true,
+      "analyticsProvider": "ga",
+      "googleAnalyticsAccount": "",
+      "tools": ["prettier", "hads"],
+      "utility": [],
+      "projectName": "payment-method",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": []
+    }
+  }
+}

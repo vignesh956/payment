@@ -1,0 +1,68 @@
+<ion-content class="backgroud">
+  <ion-card class="card">
+    <a class="atag" style="padding: 10px;" [routerLink]="['/home']" routerLinkActive="router-link-active;">
+      <ion-button color="secondary">Payment method</ion-button>
+    </a>
+    <a class="atag" style="padding: 10px;" [routerLink]="['/about']" routerLinkActive="router-link-active">
+      <ion-button color="secondary">Payout</ion-button>
+    </a>
+    <a class="atag" style="padding: 10px;" [routerLink]="['/Payout']" routerLinkActive="router-link-active">
+      <ion-button color="secondary"> Transactions History</ion-button>
+    </a>
+
+    <ion-card-content class="content" style="border-bottom: 1px solid gray;">Payment Method</ion-card-content>
+
+    <ion-text class="text"><b>Payment Methods</b></ion-text>
+
+    <div class="table">
+      <ion-grid>
+        <ion-row class="row1" style="border-bottom: 1px solid gray;">
+          <ion-col>
+            <ion-text><b>Name</b></ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text><b>Card No</b> </ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text><b>Card Type</b> </ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text><b>Country</b></ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text><b>Expires</b></ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text><b>Action</b></ion-text>
+          </ion-col>
+        </ion-row>
+        <ion-row id="row2">
+          <ion-col>
+            <ion-text>Ruby</ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text>3234 4345 6754</ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text>American Express</ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text style="color:blue;">Mexico</ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text><B>May 2023</B></ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-icon name="close"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </ion-card>
+
+  <ion-text class="text2">Payment Methods</ion-text>
+
+  <ion-card class="crad2">
+    <ion-button class="button2" color="secondary">Add Payment Method</ion-button>
+  </ion-card>
+</ion-content>

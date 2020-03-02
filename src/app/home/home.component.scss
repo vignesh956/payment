@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+  // background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.text {
+  font-size: 27px;
+  // margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: block;
+  color: black;
+}
+
+.content {
+  margin-top: 15px;
+  color: black;
+}
+.table {
+  margin-top: 40px;
+  padding: 10px;
+  width: 100%;
+  overflow-x: auto;
+  color: black;
+}
+
+#row2 {
+  margin-top: 20px;
+}
+
+.text2 {
+  color: skyblue;
+  font-size: 30px;
+  display: block;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.crad2 {
+  font-size: 20px;
+  padding: 15px;
+}
+.button2 {
+  margin-left: 20px;
+}
+
+.contentp2 {
+  font-size: 30px;
+}
+.cardP3 {
+  padding: 10px;
+}
+.history {
+  font-size: 30px;
+  color: rgb(135, 235, 177);
+}
+.cardp4 {
+  padding: 10px;
+}
+
+@media (max-width: 760px) {
+  .table ion-grid {
+    width: 460px;
+  }
+}
